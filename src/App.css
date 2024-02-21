@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.bg_linear {
+    background: linear-gradient(0deg, #08090E 0%, rgba(8, 9, 14, 0) 100%) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg_feature {
+    background: linear-gradient(0deg, rgba(252, 252, 252, 0.4), rgba(252, 252, 252, 0.4)), linear-gradient(0deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bglayer_linear {
+    background: linear-gradient(0deg, #010309 0%, rgba(1, 3, 9, 0) 100%) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bglayer_blockchain {
+    background: linear-gradient(180deg, #010B24 0%, rgba(1, 3, 9, 0) 100%) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.bg_footer {
+    background: linear-gradient(180deg, #0066FF 0%, #02CDCF 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border_block {
+    border-left: 2px solid !important;
+    border-image-source: linear-gradient(180deg, #FFFFFF 0%, rgba(252, 252, 252, 0) 100%) !important;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-280px * 7))
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(calc(-280px*7))
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider {
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    width: auto !important;
+    max-width: 1200px !important;
+}
+
+.slide {
+    height: 180px;
+    width: 280px;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(280px*14);
+    position: relative;
+}
+
+.slide-track1 {
+    animation: scroll2 40s linear infinite;
+    display: flex;
+    width: calc(280px*16);
+    position: relative;
 }

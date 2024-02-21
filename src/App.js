@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+// import SocialMedia from './pages/SocialMedia';
+import NexAi from './pages/NexAi';
 import './App.css';
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    // -------aos--------//
+    useEffect(() => {
+        AOS.init(
+            {
+                once: true,
+                duration: 1200,
+                easing: 'ease-in-out',
+            }
+        );
+        Aos.refresh()
+    });
+
+    return (
+        <div className='overflow-hidden'>
+            <NexAi />
+            {/* <SocialMedia /> */}
+        </div>
+    )
 }
 
-export default App;
+export default App
