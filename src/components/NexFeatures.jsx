@@ -7,14 +7,14 @@ import Globe1 from '../assets/images/gif/globeimgfeature.gif';
 
 const NexFeatures = () => {
     return (
-        <div id='Features' className='lg:pb-[160px] md:pb-[80px] sm:pb-[60px] pb-[50px] relative overflow-hidden'>
+        <div id='Features' className='xl:pb-[160px] sm:pb-[60px] pb-[50px] relative overflow-hidden'>
             <div className='absolute lg:bottom-[25%] bottom-0 max-lg:top-0 left-0 right-0 flex justify-center max-lg:items-center'>
                 <img src={Globe1} alt="Globe1" className='mix-blend-screen w-full max-w-[857px] max-lg:object-contain' />
             </div>
             <div data-aos="zoom-in" className='container lg:pt-[80px] pt-[40px] mx-auto xl:max-w-[1164px] xl:px-3 px-6 h-[850px] overflow-scroll featurescroll relative z-10'>
                 <div className='flex items-center justify-center flex-col lg:mb-[100px] sm:mb-[60px] mb-[40px]'>
                     <h2 className='ff_play sm:text-[48px] text-center text-[32px] font-normal text-[#FCFCFC] leading-[126%] sm:mb-[16px] mb-[8px]'>Unique features</h2>
-                    <p className='ff_poppins text-[16px] font-normal leading-[100%] text-white max-w-[517px] opacity-70 text-center'>ability to engage in natural, fluent conversations in over 15 languages,</p>
+                    <p className='ff_poppins text-[16px] font-normal leading-[160%] text-white max-w-[517px] opacity-70 text-center'>ability to engage in natural, fluent conversations in over 15 languages,</p>
                 </div>
                 <div className='flex flex-row flex-wrap '>
                     <div className='lg:w-[50%] w-full flex flex-col lg:items-start items-center'>

@@ -9,7 +9,7 @@ const NexThings = () => {
                     <p className='ff_poppins text-[16px] font-normal leading-[160%] text-white text-center max-w-[823px] opacity-70'>Sed sit sit sit at laoreet tortor dis euismod in. Viverra arcu semper mauris lorem dignissim vulputate orci. Habitant imperdiet at molestie ipsumpretium in pharetra tincidunt.</p>
                 </div>
             </div>
-            <div className="slider xl:mr-auto max-lg:container max-lg:px-6 lg:mt-[298px] md:mt-[100px] sm:mt-[60px] mt-[30px] !z-30">
+            <div className="slider xl:mr-auto max-lg:container max-lg:px-6 xl:mt-[298px] lg:mt-[140px] md:mt-[100px] sm:mt-[60px] mt-[30px] !z-30">
                 <div className="slide-track 2xl:gap-[164px] lg:gap-[100px] gap-[50px]">
                     <div className="slide">
                         <div className="!shadow-[0px,_4px,_20px,0px#02CDCF29] hover:shadow-[8px,_10px,_20px,8px#ffffff] !backdrop-blur-[79px] h-[180px] flex justify-center items-center rounded-[16px] border border-white border-solid  !bg-gradient-to-b !from-[#ffffff00] !to-[#ffffff17] px-[13px]">

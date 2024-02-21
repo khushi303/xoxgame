@@ -7,7 +7,7 @@ import Blockchainlock4 from '../assets/images/webp/lockphone.webp';
 
 const NexBlockchain = () => {
     return (
-        <div id='Marketplace' className='lg:pt-[91px] sm:pt-[60px] pt-[50px] relative lg:pb-[39px] pb-[50px] overflow-hidden'>
+        <div id='Marketplace' className='lg:pt-[91px] sm:pt-[60px] pt-[50px] relative lg:pb-[39px] sm:pb-[60px] pb-[50px] overflow-hidden'>
             <div className='bglayer_blockchain h-[102px] left-0 right-0 absolute top-[-32px]'></div>
             <div data-aos="zoom-in" className='container mx-auto xl:max-w-[1164px] xl:px-3 px-6 relative z-10'>
                 <h2 className='sm:text-[48px] text-[32px] ff_play font-normal text-[#fcfcfc] leading-[126%] mb-[16px]'>Blockchain & AI technology</h2>

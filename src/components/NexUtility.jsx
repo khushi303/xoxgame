@@ -10,7 +10,7 @@ const NexUtility = () => {
             </div>
             <div className='bg-[#0066FF] w-[274px] h-[274px] absolute right-[-11%] bottom-[-4%] blur-[200px] z-[1]'></div>
             <div className='bg-[#0066FF] w-[274px] h-[274px] absolute left-[-11%] top-[9%] blur-[200px] z-[1]'></div>
-            <div data-aos="zoom-in" className='container mx-auto xl:max-w-[1164px] xl:px-3 px-6 lg:pt-[90px] lg:pb-[108px] sm:py-[60px] py-[40px]'>
+            <div data-aos="zoom-in" className='container mx-auto xl:max-w-[1164px] xl:px-3 px-6 lg:pt-[90px] lg:pb-[108px] sm:py-[50px] py-[40px]'>
                 <h2 className='ff_play sm:text-[48px] text-[32px] font-normal text-center text-[#fcfcfc] leading-[126%] mb-[16px]'>NexAI Token & utility</h2>
                 <div className='border border-solid border-[#0066FF] sm:rounded-[32px] rounded-[20px] bg-[#FFFFFF0A] px-[20px] sm:px-[30px] lg:px-[60px] lg:pt-[149px] lg:pb-[237px] sm:py-[100px] pt-[40px] pb-[60px] relative overflow-hidden lg:mt-[70px] sm:mt-[40px] mt-[25px]'>
                     <div className='relative z-10'>
