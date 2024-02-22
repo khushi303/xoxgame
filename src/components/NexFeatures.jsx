@@ -16,17 +16,17 @@ const NexFeatures = () => {
                     <h2 className='ff_play sm:text-[48px] text-center text-[32px] font-normal text-[#FCFCFC] leading-[126%] sm:mb-[16px] mb-[8px]'>Unique features</h2>
                     <p className='ff_poppins text-[16px] font-normal leading-[160%] text-white max-w-[517px] opacity-70 text-center'>ability to engage in natural, fluent conversations in over 15 languages,</p>
                 </div>
-                <div className='flex flex-row flex-wrap '>
+                <div className='flex flex-row flex-wrap relative z-10'>
                     <div className='lg:w-[50%] w-full flex flex-col lg:items-start items-center'>
                         <div className='bg_feature rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
                             <img src={FeatureMouse} alt="FeatureMouse" className='w-full rounded-t-[16px] cursor-pointer' />
-                            <div className='pt-[20px] pl-[24px] pr-[36px] pb-[30px] bg-[#ffffff33] cursor-pointer'>
+                            <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
                         <div className='bg_feature lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
                             <img src={Featureimg3} alt="Featureimg3" className='w-full rounded-t-[16px] cursor-pointer' />
-                            <div className='pt-[20px] pl-[24px] pr-[36px] pb-[30px] bg-[#ffffff33] cursor-pointer'>
+                            <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
@@ -34,13 +34,13 @@ const NexFeatures = () => {
                     <div className='lg:w-[50%] w-full flex flex-col lg:items-end items-center lg:pt-[286px] sm:pt-[80px] pt-[40px]'>
                         <div className='bg_feature rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
                             <img src={Featureimg2} alt="Featureimg2" className='w-full rounded-t-[16px] cursor-pointer' />
-                            <div className='pt-[20px] pl-[24px] pr-[36px] pb-[30px] bg-[#ffffff33] cursor-pointer'>
+                            <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
                         <div className='bg_feature lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
                             <img src={Featureimg4} alt="Featureimg4" className='w-full rounded-t-[16px] cursor-pointer' />
-                            <div className='pt-[20px] pl-[24px] pr-[36px] pb-[30px] bg-[#ffffff33] cursor-pointer'>
+                            <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>

@@ -48,7 +48,7 @@ const NexFooter = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg_footer h-[4px] opacity-40 w-full'></div>
+                <div className='bg_footer h-[4px] opacity-40 w-full rounded-[16px]'></div>
                 <div className='py-[20px]'>
                     <p className='ff_poppins text-[16px] font-normal text-center text-white opacity-70 leading-[100%]'>@Copyright.nexai</p>
                 </div>
