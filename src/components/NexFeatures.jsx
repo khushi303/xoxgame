@@ -18,28 +18,28 @@ const NexFeatures = () => {
                 </div>
                 <div className='flex flex-row flex-wrap relative z-10'>
                     <div className='lg:w-[50%] w-full flex flex-col lg:items-start items-center'>
-                        <div className='bg_feature rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
-                            <img src={FeatureMouse} alt="FeatureMouse" className='w-full rounded-t-[16px] cursor-pointer' />
+                        <div className='bg_feature hover:scale-95 transition-all duration-300 ease-linear rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
+                            <img src={FeatureMouse} alt="FeatureMouse" className='w-full max-w-[364px] rounded-t-[16px] cursor-pointer' />
                             <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
-                        <div className='bg_feature lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
-                            <img src={Featureimg3} alt="Featureimg3" className='w-full rounded-t-[16px] cursor-pointer' />
+                        <div className='bg_feature hover:scale-95 transition-all duration-300 ease-linear lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
+                            <img src={Featureimg3} alt="Featureimg3" className='w-full max-w-[364px] rounded-t-[16px] cursor-pointer' />
                             <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
                     </div>
                     <div className='lg:w-[50%] w-full flex flex-col lg:items-end items-center lg:pt-[286px] sm:pt-[80px] pt-[40px]'>
-                        <div className='bg_feature rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
-                            <img src={Featureimg2} alt="Featureimg2" className='w-full rounded-t-[16px] cursor-pointer' />
+                        <div className='bg_feature hover:scale-95 transition-all duration-300 ease-linear rounded-[16px] cursor-pointer max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
+                            <img src={Featureimg2} alt="Featureimg2" className='w-full max-w-[364px] rounded-t-[16px] cursor-pointer' />
                             <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>
                         </div>
-                        <div className='bg_feature lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
-                            <img src={Featureimg4} alt="Featureimg4" className='w-full rounded-t-[16px] cursor-pointer' />
+                        <div className='bg_feature hover:scale-95 transition-all duration-300 ease-linear lg:mt-[180px] sm:mt-[80px] mt-[40px] cursor-pointer rounded-[16px] max-w-[364px] border border-solid border-[#FCFCFC66] relative z-[1]'>
+                            <img src={Featureimg4} alt="Featureimg4" className='w-full max-w-[364px] rounded-t-[16px] cursor-pointer' />
                             <div className='pt-[20px] pl-[24px] rounded-b-[16px] pr-[36px] pb-[30px] bg-[#ffffff15] cursor-pointer'>
                                 <p className='text-[20px] font-semibold ff_poppins text-white leading-[160.9%]'>Remote Access and File Management</p>
                             </div>

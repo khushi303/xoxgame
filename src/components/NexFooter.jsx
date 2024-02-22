@@ -43,8 +43,8 @@ const NexFooter = () => {
                             <h2 className='ff_play text-[24px] font-normal leading-[130%] lg:max-w-[284px] text-white'>Ready to get started Talk to us Today </h2>
                         </div>
                         <div className='lg:max-w-[357px] w-full border border-solid border-[#FCFCFC33] rounded-[12px] flex items-center justify-center'>
-                            <input type="text" placeholder='E-mail' className='bg-transparent py-[18px] pl-[18px] w-full text-[16px] ff_poppins font-normal text-white opacity-60 leading-[120%] outline-none' />
-                            <button className='bg-[#0066FF] relative z-10 py-[18px] px-[32.5px] group text-white btn-1 after:absolute after:top-0 after:left-0 after:w-full after:h-full after:block after:rounded-[12px] rounded-[12px] after:opacity-0 after:bg-[#fcfcfc] after:scale-50 after:hover:opacity-100 after:hover:scale-100 after:transition-all after:duration-300 after:ease-linear whitespace-nowrap'><span className='btn-text relative z-10 group-hover:text-[#0066FF] ff_poppins text-[18px] leading-[151%] font-semibold'>Get Started</span></button>
+                            <input type="text" placeholder='E-mail' className='bg-transparent sm:py-[18px] py-[14px] sm:pl-[18px] pl-[14px] w-full text-[16px] ff_poppins font-normal text-white opacity-60 leading-[120%] outline-none' />
+                            <button className='bg-[#0066FF] relative z-10 sm:py-[18px] sm:px-[32.5px] px-[30px] py-[14px] group text-white btn-1 after:absolute after:top-0 after:left-0 after:w-full after:h-full after:block after:rounded-[12px] rounded-[12px] after:opacity-0 after:bg-[#fcfcfc] after:scale-50 after:hover:opacity-100 after:hover:scale-100 after:transition-all after:duration-300 after:ease-linear whitespace-nowrap'><span className='btn-text relative z-10 group-hover:text-[#0066FF] ff_poppins sm:text-[18px]    text-[16px] leading-[151%] font-semibold'>Get Started</span></button>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import PresaleSkull from '../assets/images/gif/skullgifpresale.gif'
 const NexPresale = () => {
     return (
         <div className='lg:pt-[80px] sm:pt-[60px] pt-[50px] mb-[-20px] relative'>
-            <div className='container mx-auto xl:max-w-[1216px] xl:px-3 px-6'>
+            <div className='container mx-auto xl:max-w-[1216px] xl:px-3 px-6 relative z-10'>
                 <div className='flex flex-row flex-wrap lg:justify-between justify-center'>
                     <div data-aos="zoom-in" className='lg:w-[40%]'>
                         <img src={PresaleSkull} alt="PresaleSkull" className='w-full' />
