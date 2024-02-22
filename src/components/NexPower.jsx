@@ -1,6 +1,5 @@
 import React from 'react'
-import Skullimg from '../assets/images/webp/skullpower.webp'
-import PowerGlobe from '../assets/images/gif/Ai-gif.gif';
+import Skullimg from '../assets/images/gif/powergif1.gif'
 
 const NexPower = () => {
     return (
@@ -16,7 +15,6 @@ const NexPower = () => {
                     </div>
                     <div data-aos="zoom-in" className='lg:w-[40%]'>
                         <div className='max-w-[470px] w-full relative'>
-                            <img src={PowerGlobe} alt="PowerGlobe" className='absolute bottom-0 right-[-8%] xl:max-w-[310px] lg:max-w-[271px] sm:max-w-[308px] max-w-[217px] w-full mix-blend-color-dodge' />
                             <img src={Skullimg} alt="Skullimg" className='w-full max-w-[443px] relative z-10' />
                         </div>
                     </div>
