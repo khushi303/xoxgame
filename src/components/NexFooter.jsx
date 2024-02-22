@@ -3,9 +3,9 @@ import { Facebook, Tweeter, Telegram } from './Iconimg'
 
 const NexFooter = () => {
     return (
-        <div id='NexChat' className="bg-[url('./assets/images/webp/bgfooter.webp')] lg:bg-FullSize bg-cover bg-center lg:pt-[263px] pt-[100px] md:pt-[150px]">
+        <div id='NexChat' className="bg-[url('./assets/images/webp/bgfooter.webp')] lg:bg-FullSize bg-cover bg-center lg:pt-[263px] pt-[80px] md:pt-[150px]">
             <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-6'>
-                <div className='flex flex-row flex-wrap justify-center pb-[61px]'>
+                <div className='flex flex-row flex-wrap justify-center sm:pb-[61px] pb-[45px]'>
                     <div className='lg:w-[35%] w-full pt-[36px]'>
                         <p className='ff_poppins text-[16px] font-normal lg:max-w-[243px] sm:max-w-[400px] text-white leading-[160%] opacity-70'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
                         <div className='flex items-center gap-[12px] mt-[20px]'>
